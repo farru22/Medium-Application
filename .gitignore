@@ -32,3 +32,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# git init
+# git add .
+# git commit -am "initial Commit"
+# git remote add origin https://github.com/farru22/Medium-Application.git
+# git remote -v
+# git push origin master

@@ -4,7 +4,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb+srv://farhanakhtar7869:Farhan123@cluster22.tt7imeu.mongodb.net/
+      uri: 
       database: journalDB
       auto-index-creation: true
 
