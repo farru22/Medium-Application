@@ -6,11 +6,13 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 import com.farfor.journalApp.entity.UserEntry;
 import com.farfor.journalApp.repository.UserEntryRepo;
 
-@Component//Isko componenet karegay jisse ki dependencyinject kar paye
+//@Component Isko componenet karegay jisse ki dependency inject kar paye
+@Service //Direct service likhdo to make it readable and do all the component stuff
 public class UserEntryService {
 
     @Autowired

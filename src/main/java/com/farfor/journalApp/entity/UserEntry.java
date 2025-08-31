@@ -26,6 +26,8 @@ public class UserEntry {
     private String userName;
     @NonNull
     private String passWord;
+    private String email;
+    private boolean sentimentAnalyser;
     @DBRef //Iska matlab bas yahi hai ki ye JournalEntry ka reference rakhega ye List na ki pura Jo urnalEntry
     private List<JournalEntry> journalEntries=new ArrayList<>();
     private List<String> roles;

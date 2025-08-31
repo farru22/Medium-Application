@@ -4,9 +4,21 @@ spring:
 
   data:
     mongodb:
-      uri: 
+      uri: mongodb+srv://farhanakhtar7869:Farhan123@cluster22.tt7imeu.mongodb.net/
       database: journalDB
       auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587 
+    username: naughtybalak22@gmail.com
+    password: lowq mtnv nyuq sagh
+    properties:
+      mail: 
+        smtp:
+          auth: true 
+          starttls:
+            enable: true
 
 server:
   port: 8081

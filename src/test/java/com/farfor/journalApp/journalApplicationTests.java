@@ -1,4 +1,4 @@
-package com.farfor.retry;
+package com.farfor.journalApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

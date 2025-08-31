@@ -5,12 +5,13 @@ import java.util.Optional;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.farfor.journalApp.entity.JournalEntry;
 import com.farfor.journalApp.repository.JournalEntryRepo;
 
-@Component//Isko componenet karegay jisse ki dependencyinject kar paye
+//@Component Isko componenet karegay jisse ki dependencyinject kar paye
+@Service
 public class JournalEntryService {
 
     @Autowired

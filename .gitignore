@@ -39,3 +39,9 @@ build/
 # git remote add origin https://github.com/farru22/Medium-Application.git
 # git remote -v
 # git push origin master
+
+
+
+# git add .
+# git commit -am "initial Commit"
+# git push origin master

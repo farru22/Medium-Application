@@ -11,3 +11,10 @@ public interface UserEntryRepo extends MongoRepository <UserEntry,ObjectId> {
     void deleteByuserName(String userName);
     //Jab ham indexing karegay toh ham ye username wala function bana ke username ke basis par search kar sakte hai
 }
+
+
+
+
+//   UserEntry findByuserName(String userName);
+//     void deleteByuserName(String userName);
+
